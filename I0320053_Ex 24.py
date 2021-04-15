@@ -1,13 +1,6 @@
-#Metode clear
-a = {'satu': 10, 'dua': 20, 'tiga' : 30}
-b = {'satu': 10, 'dua': 20,}
+#Metode copy
+a = {'susu': 10, 'dua':20, 'tiga': 30}
 print('a= ',a)
+#membuat copy a
+b = a.copy()
 print('b= ',b)
-print('nilai len a= ', len(a))
-print('nilai len b= ', len(b))
-#menghapus elemen
-a. clear()
-b. clear()
-#Setelah dihapus
-print('nilai len a= ', len(a))
-print('nilai len b= ', len(b))
